@@ -1,8 +1,8 @@
-import Component from './base-components.js';
-import {validator, ValidatableInterface} from '../util/validation.js';
-import {Auto_bind} from '../decorators/autobind.js';
-import {projectState} from '../state/project-state.js';
-import {Project, ProjectStatus} from '../models/project.js';
+import Component from './base-components';
+import {validator, ValidatableInterface} from '../util/validation';
+import {Auto_bind} from '../decorators/autobind';
+import {projectState} from '../state/project-state';
+import {Project, ProjectStatus} from '../models/project';
 
 // Tuple type
 type UserInputFormType = [string, string, number] | void;
