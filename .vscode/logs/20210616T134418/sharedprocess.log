@@ -1,7 +1,0 @@
-[2021-06-16 13:45:01.081] [sharedprocess] [info] Starting to clean up unused language packs.
-[2021-06-16 15:39:17.475] [sharedprocess] [info] Installing extension: msjsdiag.debugger-for-chrome
-[2021-06-16 15:39:23.117] [sharedprocess] [info] Downloaded extension: msjsdiag.debugger-for-chrome /var/www/web/typescript-practice/.vscode/CachedExtensionVSIXs/msjsdiag.debugger-for-chrome-4.12.12
-[2021-06-16 15:39:24.275] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.0e026e2f-8b13-445a-9519-b984915a1739: msjsdiag.debugger-for-chrome
-[2021-06-16 15:39:24.288] [sharedprocess] [info] Renamed to /root/.vscode/extensions/msjsdiag.debugger-for-chrome-4.12.12
-[2021-06-16 15:39:24.292] [sharedprocess] [info] Installation completed. msjsdiag.debugger-for-chrome
-[2021-06-16 15:39:24.300] [sharedprocess] [info] Extensions installed successfully: msjsdiag.debugger-for-chrome
