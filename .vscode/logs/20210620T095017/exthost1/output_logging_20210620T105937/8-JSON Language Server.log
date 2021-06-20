@@ -1,0 +1,56 @@
+[Error - 10:59:37 am] Request textDocument/colorPresentation failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/colorPresentation failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/colorPresentation failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[Error - 10:59:37 am] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:229037)
+	at Object.dispose (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:59105)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:55607
+	at runMicrotasks (<anonymous>)
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
