@@ -44,3 +44,21 @@
 [2021-06-20 17:33:18.895] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
 [2021-06-20 17:36:03.269] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
 [2021-06-20 17:36:05.359] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
+[2021-06-20 17:36:10.443] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
+[2021-06-20 17:36:15.539] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
+[2021-06-20 17:36:20.633] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
+[2021-06-20 17:36:25.767] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 821
+[2021-06-20 17:40:14.549] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-06-20 17:40:14.557] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64563)
+	at b.handleFailedRequest (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64414)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:24756
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-06-20 17:40:14.563] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-06-20 17:40:14.563] [exthost] [error] Canceled: Canceled
+	at b.makeCancelError (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64563)
+	at b.handleFailedRequest (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:64414)
+	at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:24756
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
