@@ -1,20 +1,21 @@
 import CommonRouteConfig from './common.routes.config';
-import * as express from 'express';
-import TodoController from '../controllers/todos';
+import {Application as ExpressApp} from 'express';
+import UserController from '../controllers/user-controller';
 
-export default class UserRoute extends CommonRouteConfig {
+export default class UserRoute extends CommonRouteConfig<ExpressApp> {
 
 
-    constructor(app: express.Application){
+    constructor(app: ExpressApp){
         super(app, 'UserRoute');
     }
-    configureRoutes(): express.Application
+    configureRoutes(): ExpressApp
     {
 
-        const todoController = new TodoController();
+        const userCtrl = new UserController();
 
         this.app.route('/users')
-                .get(todoController.getUser);
+                .get(userCtrl.getUser);
+        this.app.route('/users/post-create').post(userCtrl.postCreate);
         return this.app;
     }
 }

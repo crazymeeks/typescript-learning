@@ -1,4 +1,5 @@
 import * as express from 'express';
+import {Application as ExpressApp} from 'express';
 import {Request, Response, NextFunction } from 'express';
 import CommonRoutesConfig from './routes/common.routes.config';
 import UserRoute from './routes/user.routes.config';
@@ -6,8 +7,8 @@ import debug from 'debug';
 import * as expressLayouts from 'express-ejs-layouts';
 
 
-const app: express.Application = express();
-const routes: Array<CommonRoutesConfig> = [];
+const app: ExpressApp = express();
+const routes: Array<CommonRoutesConfig<ExpressApp>> = [];
 const debugLog: debug.IDebugger = debug('app');
 
 const {
@@ -33,7 +34,7 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(PORT, () => {
-    routes.forEach((route: CommonRoutesConfig) => {
+    routes.forEach((route: CommonRoutesConfig<ExpressApp>) => {
         route.configureRoutes();
         debugLog(`Routes configured for ${route.getName()}`);
     });

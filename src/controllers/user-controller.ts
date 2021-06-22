@@ -2,7 +2,7 @@
 import {Request, Response, NextFunction} from 'express';
 
 
-export default class TodoController{
+export default class UserController{
 
     getUser = (req: Request, res: Response, next: NextFunction) => {
         res.status(200).render('web/page', {
@@ -10,7 +10,7 @@ export default class TodoController{
         });
     }
 
-    helloTesting() {
-        return true;
+    postCreate = (req: Request, res: Response, next: NextFunction): Response => {
+        return res.status(200).json({message: 'success'});
     }
 }
